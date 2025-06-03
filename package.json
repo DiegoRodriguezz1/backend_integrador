@@ -1,0 +1,27 @@
+{
+  "name": "backend_calendario",
+  "version": "1.0.0",
+  "description": "\"# Backend_Calendario\"",
+  "homepage": "https://github.com/Dhan1602/Backend_Calendario#readme",
+  "bugs": {
+    "url": "https://github.com/Dhan1602/Backend_Calendario/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhan1602/Backend_Calendario.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "pg": "^8.16.0"
+  }
+}
