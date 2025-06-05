@@ -9,7 +9,7 @@ const {
 
 const router = express.Router();
 
-router.get('/', async (req, res) => {
+router.get('/:usuario_id', async (req, res) => {
   const usuario_id = parseInt(req.query.usuario_id);
   if (!usuario_id) return res.status(401).json({ message: 'usuario_id requerido' });
   const categorias = await getCategoriasByUsuario(usuario_id);
